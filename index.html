@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <title> Обо мне </title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class ="container">
+        <div class="nach">
+            <p><img  class="photo" src="0.jpg" alt = "тут поё фото" width="300px"></p>
+            <div class = "im">
+                <h2 >Никита Бердашев</h2>
+                <h3>Я начинающий frontend разработчик.</h3>
+                <h3>Меня можно найти здесь:</h3>
+                <ul>
+                    <li><a href="https://vk.com/nicka_cc" target="_blank">VK</a></li>
+                    <li><a href="https://github.com/nicka-CC" target="_blank">GitHUB</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        
+
+        <hr>
+        <div class="1stCard">
+            <h3 class = "languages">Языки с которыми у меня есть опыт:</h3>
+            <ol>
+                <li>Python</li>
+                <li>Pascal</li>
+                <li>Java</li>
+                <li>PHP</li>
+                <li>html</li>
+                <li>JavaScript</li>
+            </ol>
+            </div>
+        <hr>
+        <div class="2stCard">
+            <h2>Опыт с ними:</h2>
+            <table class="table">
+                <tr>
+                    <th>Язык</th>
+                    <th>Организация</th>
+                    <th>Период обучения</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>школа</td>
+                    <td>2019-2022</td>
+                </tr>
+                <tr>
+                    <td>Pascal</td>
+                    <td>универ</td>
+                    <td>2023-2022</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>для себя</td>
+                    <td>2023-2022</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>для себя</td>
+                    <td>2023-2022</td>
+                </tr>
+                <tr>
+                    <td>html</td>
+                    <td>для себя</td>
+                    <td>2023-нв</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>для себя</td>
+                    <td>2023-нв</td>
+                </tr>
+                
+            </table>
+        </div>
+        <hr>
+        <div class="3stCard">
+             <h2>Пример одной работы</h2>
+            <a href="new.html">Лабораторная работа на языке Pascal № 10</a>
+            <hr>
+        </div>
+        
+        <h2>Связь со мной</h2>
+        <form>
+            <div class="1stform">
+                <label  name="nick" class ="labels">Ваш никнейм:</label>
+                <input type ="text" id="nick">
+                <br>
+                <label name="email" class="labels">Ваш email:</label>
+                <input type="email" id="email">
+            </div>
+            
+            <label name="message" class="labels">Ваше сообщение:</label>
+            <textarea id="message" rows="4" cols="98"></textarea>
+            <input id ="pres" type="button" value="Отправить!" onclick="window.location.reload()">
+        </form>
+        <script src="vizitka.js"></script>
+    </div>
+</body>
